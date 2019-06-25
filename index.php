@@ -32,7 +32,7 @@
         <?php while ($row = mysqli_fetch_array($result))
         {
 			?>
-
+//Render html inside the loop
 <div class=" col-md-3 card">
   
      <img alt="Card image cap" class="card-img-top " src="<?php echo $row[4]?>" />
